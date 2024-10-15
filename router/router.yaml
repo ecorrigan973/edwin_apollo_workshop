@@ -29,8 +29,8 @@ subscription:
          path: /
 
 ## Enter Workshop Module Configs Below
-APOLLO_KEY=service:EdwinCorrigan:j-MFfQ67fzhUN2v-6iN83Q \
-  rover subgraph publish EdwinCorrigan@current \
+APOLLO_KEY=service:Edwin-Corrigan-fidelity:0eP-FXDqxY5RKxACApy1cg \
+  rover subgraph publish Edwin-Corrigan-fidelity@current \
   --schema ./products-schema.graphql \
   --name your-subgraph-name \
   --routing-url http://products.prod.svc.cluster.local:4001/graphql
